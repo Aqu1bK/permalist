@@ -6,7 +6,7 @@ const app = express();
 const port = 3000;
 
 const db = new pg.Client({
-  user: "postgres123",
+  user: "postgres",
   host: "localhost",
   database: "permalist",
   password: "password",
